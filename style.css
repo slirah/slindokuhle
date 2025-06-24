@@ -1,71 +1,43 @@
-h1{
-    color: green;
-    font-family: sans-serif;
+.galleryimg{
+    width: 100%;
 }
 
 h2{
-    color: orange;
+    font-family: Impact, fantasy;
+    text-align: center;
+    font-size: 30px;
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+h4{
+    font-family: Impact, fantasy;
+    font-size: 20px;
+    font-style: italic;
+    color: cornflowerblue
 }
 
 p{
-    color: purple;
-    font-family: courier New'; courier, monospace;
+    font-family: Helvetica, sans-serif
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ul{
-    list-style-image: url('images/pointer-icon.png');
+#menu{
+    width: 100;
+    height: 40px;
+    background-color: cornflowerblue;
+    padding-top: 12px;
 }
 
-ol{
-    list-style-type: upper-roman;
-}
-
-#menu-bar a{
-    font-family: Helvetica, sans-serif;
-    text-decoration: none;
-    background-color: aquamarine;
-    padding: 5px
-}
-
-#menu-bar a:hover{
-    background-color: aqua;
+#menu a{
     color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-
-
-
-
+#menu a:hover{
+    color: #5077bd;
+}
